@@ -28,7 +28,7 @@ app.post("/",function(req,res){
     const url="https://us4.api.mailchimp.com/3.0/lists/b262e21fdd";
     const options={
         method:"POST",
-        auth:"therohitbansal:984092fd9bfc701871cbddbd1eb9e04a-us4"
+        auth:"therohitbansal:37cbf6caf471621a17eb871c3b87c35f-us4"
     }
   const request=https.request(url,options,function(response){
     if(response.statusCode===200)
@@ -51,5 +51,5 @@ app.listen(process.env.PORT,function(){
     console.log("Listining");
 })
 // Api key
-// 984092fd9bfc701871cbddbd1eb9e04a-us4
+// 37cbf6caf471621a17eb871c3b87c35f-us4
 // List id b262e21fdd
